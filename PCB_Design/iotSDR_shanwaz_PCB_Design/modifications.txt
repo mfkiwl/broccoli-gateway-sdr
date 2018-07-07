@@ -1,0 +1,4 @@
+1 length matching and spacing sat signals
+2 check clock routing xrystal
+3 writing on top layer
+4 evdd avdd take out as point
