@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:54:30 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sat Jul  7 00:44:14 2018
+# Process ID: 17593
+# Current directory: /mnt/IQups/IQups_Projects/iotSDR/Vivado_work/trx_spi_interface/fpga-2.13/ucecho.runs/impl_2_13aa
+# Command line: vivado -log ucecho.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source ucecho.tcl -notrace
+# Log file: /mnt/IQups/IQups_Projects/iotSDR/Vivado_work/trx_spi_interface/fpga-2.13/ucecho.runs/impl_2_13aa/ucecho.vdi
+# Journal file: /mnt/IQups/IQups_Projects/iotSDR/Vivado_work/trx_spi_interface/fpga-2.13/ucecho.runs/impl_2_13aa/vivado.jou
+#-----------------------------------------------------------
+source ucecho.tcl -notrace

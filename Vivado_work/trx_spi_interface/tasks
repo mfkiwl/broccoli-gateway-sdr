@@ -1,0 +1,6 @@
+
+
+
+1- ucecho example running host to fpga loopback test          TC
+2- custom ucecho fpga design build and test no Uppercase      OG
+3- Spi master core integration and testing                    NS
