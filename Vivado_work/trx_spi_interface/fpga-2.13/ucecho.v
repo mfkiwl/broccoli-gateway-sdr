@@ -26,13 +26,13 @@ module ucecho (
 	input lsi_clk,
     input lsi_mosi,
     input  lsi_stop,
-    output lsi_miso
+    output lsi_miso,
     // spi peripheral Signals
     
-//    output dev_mosi,
-//    input  dev_miso,
-//    output dev_ss,
-//    output dev_sclk 
+    output dev_mosi,
+    input  dev_miso,
+    output dev_ss,
+    output dev_sclk 
 		
 	);
     
@@ -77,10 +77,10 @@ module ucecho (
         .o_tx_end(tx_end),       
         .i_data_parallel(TxData),
         .o_data_parallel(),
-        .o_sclk(),         
-        .o_ss(),           
-        .o_mosi(),         
-        .i_miso()              
+        .o_sclk(dev_sclk),         
+        .o_ss(dev_ss),           
+        .o_mosi(dev_mosi),         
+        .i_miso(dev_miso)              
      
     );
     
