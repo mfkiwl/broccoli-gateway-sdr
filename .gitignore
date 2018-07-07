@@ -1,0 +1,8 @@
+#git ignire these directory files
+
+PCB_Design/SCHEMATIC (1).rar
+PCB_Design/custom_pcb_design_v10/
+ReferenceMaterial/
+Vivado_work/examples/
+ZTEX/
+
