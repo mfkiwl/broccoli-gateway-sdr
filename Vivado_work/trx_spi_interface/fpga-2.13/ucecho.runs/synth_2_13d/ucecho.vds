@@ -43,3 +43,435 @@ Report Check Netlist:
 Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1343.621 ; gain = 139.523 ; free physical = 4666 ; free virtual = 13037
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7a35tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/mnt/IQups/IQups_Projects/iotSDR/Vivado_work/trx_spi_interface/fpga-2.13/ucecho.xdc]
+WARNING: [Vivado 12-4702] DRIVE is not a supported property on input port(s). Setting is ignored. [/mnt/IQups/IQups_Projects/iotSDR/Vivado_work/trx_spi_interface/fpga-2.13/ucecho.xdc:24]
+Finished Parsing XDC File [/mnt/IQups/IQups_Projects/iotSDR/Vivado_work/trx_spi_interface/fpga-2.13/ucecho.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/mnt/IQups/IQups_Projects/iotSDR/Vivado_work/trx_spi_interface/fpga-2.13/ucecho.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/ucecho_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/ucecho_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1715.832 ; gain = 0.000 ; free physical = 4370 ; free virtual = 12770
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:23 ; elapsed = 00:00:35 . Memory (MB): peak = 1715.832 ; gain = 511.734 ; free physical = 4464 ; free virtual = 12865
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:23 ; elapsed = 00:00:35 . Memory (MB): peak = 1715.832 ; gain = 511.734 ; free physical = 4464 ; free virtual = 12865
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:35 . Memory (MB): peak = 1715.832 ; gain = 511.734 ; free physical = 4465 ; free virtual = 12866
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "r_sclk_fall" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[255]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[254]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[253]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[252]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[251]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[250]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[249]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[248]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[247]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[246]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[245]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[244]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[243]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[242]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[241]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[240]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[239]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[238]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[237]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[236]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[235]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[234]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[233]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[232]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[231]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[230]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[229]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[228]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[227]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[226]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[225]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[224]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[223]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[222]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[221]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[220]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[219]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[218]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[217]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[216]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[215]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[214]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[213]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[212]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[211]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[210]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[209]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[208]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[207]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[206]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[205]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[204]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[203]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[202]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[201]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[200]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[199]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[198]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[197]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[196]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[195]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[194]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[193]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[192]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[191]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[190]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[189]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[188]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[187]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[186]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[185]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[184]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[183]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[182]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[181]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[180]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[179]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[178]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[177]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[176]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[175]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[174]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[173]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[172]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[171]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[170]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[169]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[168]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[167]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[166]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[165]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[164]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[163]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[162]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[161]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[160]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[159]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[158]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[157]" won't be mapped to RAM because it is too sparse
+INFO: [Common 17-14] Message 'Synth 8-5546' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:25 ; elapsed = 00:00:38 . Memory (MB): peak = 1715.832 ; gain = 511.734 ; free physical = 4452 ; free virtual = 12853
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 2     
++---Registers : 
+	               40 Bit    Registers := 1     
+	               32 Bit    Registers := 259   
+	               24 Bit    Registers := 4     
+	                8 Bit    Registers := 2     
+	                5 Bit    Registers := 2     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 15    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+	   3 Input     24 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   3 Input      5 Bit        Muxes := 2     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 260   
+	   3 Input      1 Bit        Muxes := 12    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module ucecho 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 257   
+	               24 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 256   
+Module ezusb_lsi 
+Detailed RTL Component Info : 
++---Registers : 
+	               40 Bit    Registers := 1     
+	               32 Bit    Registers := 2     
+	                8 Bit    Registers := 2     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 1     
+Module spi_controller 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 2     
++---Registers : 
+	               24 Bit    Registers := 3     
+	                5 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   3 Input     24 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   3 Input      5 Bit        Muxes := 2     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 12    
+	   2 Input      1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (in_valid_reg) is unused and will be removed from module ezusb_lsi.
+WARNING: [Synth 8-3332] Sequential element (r_rx_data_reg[23]) is unused and will be removed from module spi_controller.
+WARNING: [Synth 8-3332] Sequential element (r_rx_data_reg[22]) is unused and will be removed from module spi_controller.
+WARNING: [Synth 8-3332] Sequential element (r_rx_data_reg[21]) is unused and will be removed from module spi_controller.
+WARNING: [Synth 8-3332] Sequential element (r_rx_data_reg[20]) is unused and will be removed from module spi_controller.
+WARNING: [Synth 8-3332] Sequential element (r_rx_data_reg[19]) is unused and will be removed from module spi_controller.
+WARNING: [Synth 8-3332] Sequential element (r_rx_data_reg[18]) is unused and will be removed from module spi_controller.
+WARNING: [Synth 8-3332] Sequential element (r_rx_data_reg[17]) is unused and will be removed from module spi_controller.
+WARNING: [Synth 8-3332] Sequential element (r_rx_data_reg[16]) is unused and will be removed from module spi_controller.
+WARNING: [Synth 8-3332] Sequential element (r_rx_data_reg[15]) is unused and will be removed from module spi_controller.
+WARNING: [Synth 8-3332] Sequential element (r_rx_data_reg[14]) is unused and will be removed from module spi_controller.
+WARNING: [Synth 8-3332] Sequential element (r_rx_data_reg[13]) is unused and will be removed from module spi_controller.
+WARNING: [Synth 8-3332] Sequential element (r_rx_data_reg[12]) is unused and will be removed from module spi_controller.
+WARNING: [Synth 8-3332] Sequential element (r_rx_data_reg[11]) is unused and will be removed from module spi_controller.
+WARNING: [Synth 8-3332] Sequential element (r_rx_data_reg[10]) is unused and will be removed from module spi_controller.
+WARNING: [Synth 8-3332] Sequential element (r_rx_data_reg[9]) is unused and will be removed from module spi_controller.
+WARNING: [Synth 8-3332] Sequential element (r_rx_data_reg[8]) is unused and will be removed from module spi_controller.
+WARNING: [Synth 8-3332] Sequential element (r_rx_data_reg[7]) is unused and will be removed from module spi_controller.
+WARNING: [Synth 8-3332] Sequential element (r_rx_data_reg[6]) is unused and will be removed from module spi_controller.
+WARNING: [Synth 8-3332] Sequential element (r_rx_data_reg[5]) is unused and will be removed from module spi_controller.
+WARNING: [Synth 8-3332] Sequential element (r_rx_data_reg[4]) is unused and will be removed from module spi_controller.
+WARNING: [Synth 8-3332] Sequential element (r_rx_data_reg[3]) is unused and will be removed from module spi_controller.
+WARNING: [Synth 8-3332] Sequential element (r_rx_data_reg[2]) is unused and will be removed from module spi_controller.
+WARNING: [Synth 8-3332] Sequential element (r_rx_data_reg[1]) is unused and will be removed from module spi_controller.
+WARNING: [Synth 8-3332] Sequential element (r_rx_data_reg[0]) is unused and will be removed from module spi_controller.
+WARNING: [Synth 8-3332] Sequential element (o_data_parallel_reg[23]) is unused and will be removed from module spi_controller.
+WARNING: [Synth 8-3332] Sequential element (o_data_parallel_reg[22]) is unused and will be removed from module spi_controller.
+WARNING: [Synth 8-3332] Sequential element (o_data_parallel_reg[21]) is unused and will be removed from module spi_controller.
+WARNING: [Synth 8-3332] Sequential element (o_data_parallel_reg[20]) is unused and will be removed from module spi_controller.
+WARNING: [Synth 8-3332] Sequential element (o_data_parallel_reg[19]) is unused and will be removed from module spi_controller.
+WARNING: [Synth 8-3332] Sequential element (o_data_parallel_reg[18]) is unused and will be removed from module spi_controller.
+WARNING: [Synth 8-3332] Sequential element (o_data_parallel_reg[17]) is unused and will be removed from module spi_controller.
+WARNING: [Synth 8-3332] Sequential element (o_data_parallel_reg[16]) is unused and will be removed from module spi_controller.
+WARNING: [Synth 8-3332] Sequential element (o_data_parallel_reg[15]) is unused and will be removed from module spi_controller.
+WARNING: [Synth 8-3332] Sequential element (o_data_parallel_reg[14]) is unused and will be removed from module spi_controller.
+WARNING: [Synth 8-3332] Sequential element (o_data_parallel_reg[13]) is unused and will be removed from module spi_controller.
+WARNING: [Synth 8-3332] Sequential element (o_data_parallel_reg[12]) is unused and will be removed from module spi_controller.
+WARNING: [Synth 8-3332] Sequential element (o_data_parallel_reg[11]) is unused and will be removed from module spi_controller.
+WARNING: [Synth 8-3332] Sequential element (o_data_parallel_reg[10]) is unused and will be removed from module spi_controller.
+WARNING: [Synth 8-3332] Sequential element (o_data_parallel_reg[9]) is unused and will be removed from module spi_controller.
+WARNING: [Synth 8-3332] Sequential element (o_data_parallel_reg[8]) is unused and will be removed from module spi_controller.
+WARNING: [Synth 8-3332] Sequential element (o_data_parallel_reg[7]) is unused and will be removed from module spi_controller.
+WARNING: [Synth 8-3332] Sequential element (o_data_parallel_reg[6]) is unused and will be removed from module spi_controller.
+WARNING: [Synth 8-3332] Sequential element (o_data_parallel_reg[5]) is unused and will be removed from module spi_controller.
+WARNING: [Synth 8-3332] Sequential element (o_data_parallel_reg[4]) is unused and will be removed from module spi_controller.
+WARNING: [Synth 8-3332] Sequential element (o_data_parallel_reg[3]) is unused and will be removed from module spi_controller.
+WARNING: [Synth 8-3332] Sequential element (o_data_parallel_reg[2]) is unused and will be removed from module spi_controller.
+WARNING: [Synth 8-3332] Sequential element (o_data_parallel_reg[1]) is unused and will be removed from module spi_controller.
+WARNING: [Synth 8-3332] Sequential element (o_data_parallel_reg[0]) is unused and will be removed from module spi_controller.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:33 ; elapsed = 00:00:46 . Memory (MB): peak = 1715.832 ; gain = 511.734 ; free physical = 4410 ; free virtual = 12813
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:39 ; elapsed = 00:00:55 . Memory (MB): peak = 1715.832 ; gain = 511.734 ; free physical = 4278 ; free virtual = 12688
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:40 ; elapsed = 00:00:56 . Memory (MB): peak = 1715.832 ; gain = 511.734 ; free physical = 4264 ; free virtual = 12674
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:43 ; elapsed = 00:00:59 . Memory (MB): peak = 1734.434 ; gain = 530.336 ; free physical = 4258 ; free virtual = 12668
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:44 ; elapsed = 00:01:01 . Memory (MB): peak = 1734.434 ; gain = 530.336 ; free physical = 4255 ; free virtual = 12665
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:45 ; elapsed = 00:01:01 . Memory (MB): peak = 1734.434 ; gain = 530.336 ; free physical = 4255 ; free virtual = 12665
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:45 ; elapsed = 00:01:01 . Memory (MB): peak = 1734.434 ; gain = 530.336 ; free physical = 4254 ; free virtual = 12664
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:45 ; elapsed = 00:01:01 . Memory (MB): peak = 1734.434 ; gain = 530.336 ; free physical = 4254 ; free virtual = 12664
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:46 ; elapsed = 00:01:02 . Memory (MB): peak = 1734.434 ; gain = 530.336 ; free physical = 4256 ; free virtual = 12666
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:46 ; elapsed = 00:01:02 . Memory (MB): peak = 1734.434 ; gain = 530.336 ; free physical = 4256 ; free virtual = 12666
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |BUFG  |     1|
+|2     |LUT2  |     4|
+|3     |LUT3  |     7|
+|4     |LUT4  |    27|
+|5     |LUT5  |   313|
+|6     |LUT6  |  2186|
+|7     |MUXF7 |  1088|
+|8     |MUXF8 |   544|
+|9     |FDCE  |    37|
+|10    |FDPE  |     7|
+|11    |FDRE  |  8550|
+|12    |FDSE  |     7|
+|13    |IBUF  |     5|
+|14    |OBUF  |     4|
++------+------+------+
+
+Report Instance Areas: 
++------+-------------+---------------+------+
+|      |Instance     |Module         |Cells |
++------+-------------+---------------+------+
+|1     |top          |               | 12780|
+|2     |  lsi_inst   |ezusb_lsi      |  4429|
+|3     |  spi_master |spi_controller |    92|
++------+-------------+---------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:46 ; elapsed = 00:01:02 . Memory (MB): peak = 1734.434 ; gain = 530.336 ; free physical = 4256 ; free virtual = 12666
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 49 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:37 ; elapsed = 00:00:43 . Memory (MB): peak = 1734.434 ; gain = 158.125 ; free physical = 4312 ; free virtual = 12722
+Synthesis Optimization Complete : Time (s): cpu = 00:00:46 ; elapsed = 00:01:02 . Memory (MB): peak = 1734.441 ; gain = 530.336 ; free physical = 4312 ; free virtual = 12722
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 1637 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+121 Infos, 50 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:49 ; elapsed = 00:01:05 . Memory (MB): peak = 1766.449 ; gain = 588.184 ; free physical = 4325 ; free virtual = 12736
+INFO: [Common 17-1381] The checkpoint '/mnt/IQups/IQups_Projects/iotSDR/Vivado_work/trx_spi_interface/fpga-2.13/ucecho.runs/synth_2_13d/ucecho.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file ucecho_utilization_synth.rpt -pb ucecho_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00.14 ; elapsed = 00:00:00.17 . Memory (MB): peak = 1790.461 ; gain = 0.000 ; free physical = 4323 ; free virtual = 12735
+INFO: [Common 17-206] Exiting Vivado at Sat Jul  7 23:34:12 2018...
