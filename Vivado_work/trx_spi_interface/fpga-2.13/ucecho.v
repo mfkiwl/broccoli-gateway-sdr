@@ -41,7 +41,8 @@ module ucecho (
     wire [7:0] in_data0, in_data1, in_data2, in_data3;
     wire in_strobe, out_strobe, fxclk;
 
-    reg [23:0] TxData, RxData = 24'habc;
+    reg [23:0] TxData;
+    wire [23:0] RxData;
     reg [31:0] out_data;
     reg tx_start;
     reg [31:0] mem[255:0];
@@ -76,7 +77,7 @@ module ucecho (
         .i_tx_start(tx_start),     
         .o_tx_end(tx_end),       
         .i_data_parallel(TxData),
-        .o_data_parallel(),
+        .o_data_parallel(RxData),
         .o_sclk(dev_sclk),         
         .o_ss(dev_ss),           
         .o_mosi(dev_mosi),         
@@ -85,19 +86,39 @@ module ucecho (
     );
     
     
+//    spi_master spi_controller( 
+//        .clock(fxclk),  
+//        .reset_n(1'b1),
+//        .enable(tx_start), 
+//        .cpol(1'b0),   
+//        .cpha(1'b0),   
+//        .cont(1'b0),   
+//        .clk_div(12),
+//        .addr(1),   
+//        .tx_data(TxData),
+//        .miso(dev_miso),   
+//        .sclk(dev_sclk),   
+//        .ss_n(dev_ss),    
+//        .mosi(dev_mosi),   
+//        .busy(),   
+//        .rx_data(RxData)
+//        );   
+    
     always @ (posedge fxclk)
     begin
 	if ( in_strobe ) mem[in_addr]     <=  { (in_data3), (in_data2), (in_data1), (in_data0) };
-	if ( tx_end    ) mem[7'b01100100] <=  RxData;
-	if (in_strobe== 1 && in_addr == 7'b01100100) 
+	if ( tx_end    ) mem[8'b01100100] <=  RxData;
+	if (in_strobe) 
         begin
-           TxData   <= { (in_data2), (in_data1), (in_data0) };
+           //TxData   <= { (in_data2), (in_data1), (in_data0) };
+           TxData   <= { 8'h00, 8'hD0, 8'h00};
            tx_start <= 1'b1;
         end
     else
            tx_start <= 1'b0;
            
     if ( out_strobe ) out_data <= mem[out_addr];
+  //  if ( out_strobe ) out_data <= { 8'h00, RxData};
     
     end
 

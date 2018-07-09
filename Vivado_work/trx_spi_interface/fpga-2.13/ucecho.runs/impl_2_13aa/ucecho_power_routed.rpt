@@ -1,7 +1,7 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2017.4 (lin64) Build 2086221 Fri Dec 15 20:54:30 MST 2017
-| Date             : Sat Jul  7 23:36:00 2018
+| Date             : Sun Jul  8 23:38:27 2018
 | Host             : iqayesha-OptiPlex-9010 running 64-bit Ubuntu 16.04.3 LTS
 | Command          : report_power -file ucecho_power_routed.rpt -pb ucecho_power_summary_routed.pb -rpx ucecho_power_routed.rpx
 | Design           : ucecho
@@ -53,13 +53,13 @@ Table of Contents
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
 | Clocks         |     0.006 |        3 |       --- |             --- |
-| Slice Logic    |    <0.001 |    12775 |       --- |             --- |
-|   LUT as Logic |    <0.001 |     2394 |     20800 |           11.51 |
+| Slice Logic    |    <0.001 |    12825 |       --- |             --- |
+|   LUT as Logic |    <0.001 |     2398 |     20800 |           11.53 |
 |   F7/F8 Muxes  |    <0.001 |     1632 |     32600 |            5.01 |
-|   Register     |    <0.001 |     8601 |     41600 |           20.68 |
+|   Register     |    <0.001 |     8625 |     41600 |           20.73 |
 |   Others       |     0.000 |        5 |       --- |             --- |
-| Signals        |    <0.001 |     9401 |       --- |             --- |
-| I/O            |    <0.001 |        9 |       210 |            4.29 |
+| Signals        |    <0.001 |     9427 |       --- |             --- |
+| I/O            |    <0.001 |       10 |       210 |            4.76 |
 | Static Power   |     0.072 |          |           |                 |
 | Total          |     0.079 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+

@@ -47,6 +47,8 @@ Full list of options can be obtained with '-h'
 #include <libusb-1.0/libusb.h>
 
 #include "ztex.h"
+#include "at86rf215.h"
+
 
 static char* prog_name = NULL;		// name of the programm
 
@@ -249,13 +251,16 @@ nobitstream:
     	    memcpy(cbuf, sbuf, vlen*4);
 	    for (int i=0; i<vlen*4; i++) 
 		vbuf[i] = cbuf[i*4+0] | (cbuf[i*4+1]<<8) | (cbuf[i*4+2]<<16) | (cbuf[i*4+3]<<24);
-	    printf("Send %d words to address 10 ...\n",vlen);
+
+		vbuf[0] = 0x0000000D;
+		//vlen    = 1;
+	    printf("Send %d words to address 100 ...\n",vlen);
 	    status = ztex_default_lsi_set2(handle,100,vbuf,vlen);
 	    if ( status<0 ) {
     		fprintf(stderr,"Warning: Error writing to LSI: %s\n", strerror(status));
     		goto err;
     	    }
-	    
+		//sleep(5);	    
 	    status = ztex_default_lsi_get2(handle,100,vbuf,vlen);
 	    if ( status<0 ) {
     		fprintf(stderr,"Warning: Error reading from to LSI: %s\n", strerror(status));
@@ -266,12 +271,12 @@ nobitstream:
 		cbuf[i*4+1] = vbuf[i]>>8;
 		cbuf[i*4+2] = vbuf[i]>>16;
 		cbuf[i*4+3] = vbuf[i]>>24;
-		    printf("Read words starting from 10: %x, %x, %x, %x\n", cbuf[i*4+3],cbuf[i*4+2],cbuf[i*4+1],cbuf[i*4+0] );
+		    printf("Read words starting from 100: %x, %x, %x, %x\n", cbuf[i*4+3],cbuf[i*4+2],cbuf[i*4+1],cbuf[i*4+0] );
 	    }
 	    cbuf[slen]=0;
-	    printf("Read %d words starting from 10: %s\n", vlen, cbuf );  
+	    //printf("Read %d words starting from 10: %s\n", vlen, cbuf );  
 	    
-	    if ( vlen>1 ) {
+	/*    if ( vlen>1 ) {
 		status = ztex_default_lsi_get2(handle,11,vbuf,vlen);
 	        if ( status<0 ) {
     	    	    fprintf(stderr,"Warning: Error reading from to LSI: %s\n", strerror(status));
@@ -291,7 +296,7 @@ nobitstream:
 	    printf("Read %d words starting from 11: %s\n", vlen, cbuf );  
 		  
 	    }
-        }
+    */    }
         printf("\n");
     }
 
