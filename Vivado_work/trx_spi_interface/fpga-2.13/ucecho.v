@@ -111,7 +111,7 @@ module ucecho (
 	if (in_strobe) 
         begin
            //TxData   <= { (in_data2), (in_data1), (in_data0) };
-           TxData   <= { 8'h00, 8'hD0, 8'h00};
+           TxData   <= { 8'h00, 8'h0D, 8'h00};
            tx_start <= 1'b1;
         end
     else

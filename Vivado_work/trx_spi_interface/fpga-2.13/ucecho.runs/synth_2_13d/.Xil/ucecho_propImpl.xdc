@@ -12,10 +12,10 @@ set_property PACKAGE_PIN P18 [get_ports {lsi_clk}]  		;# PC2/GPIFADR2
 set_property src_info {type:XDC file:1 line:15 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN P14 [get_ports {lsi_stop}]  		;# PC3/GPIFADR3
 set_property src_info {type:XDC file:1 line:20 export:INPUT save:INPUT read:READ} [current_design]
-set_property PACKAGE_PIN A11 [get_ports {dev_miso}]  		;# B30    17
+set_property PACKAGE_PIN A11 [get_ports {dev_sclk}]  		;# B30    18
 set_property src_info {type:XDC file:1 line:21 export:INPUT save:INPUT read:READ} [current_design]
-set_property PACKAGE_PIN A14 [get_ports {dev_mosi}]  		;# A29    16
+set_property PACKAGE_PIN A14 [get_ports {dev_ss}]  	    	;# A29    15
 set_property src_info {type:XDC file:1 line:22 export:INPUT save:INPUT read:READ} [current_design]
-set_property PACKAGE_PIN B11 [get_ports {dev_sclk}]  		;# A30    18
+set_property PACKAGE_PIN B11 [get_ports {dev_miso}]  		;# A30    17
 set_property src_info {type:XDC file:1 line:23 export:INPUT save:INPUT read:READ} [current_design]
-set_property PACKAGE_PIN A13 [get_ports {dev_ss}]  	        ;# B29    15
+set_property PACKAGE_PIN A13 [get_ports {dev_mosi}]  	    ;# B29    16

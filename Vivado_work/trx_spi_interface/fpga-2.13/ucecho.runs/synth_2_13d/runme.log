@@ -14,9 +14,9 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 28985 
+INFO: Helper process launched with PID 7309 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1292.090 ; gain = 87.992 ; free physical = 1698 ; free virtual = 11932
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1292.086 ; gain = 87.992 ; free physical = 1567 ; free virtual = 11471
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'ucecho' [/mnt/IQups/IQups_Projects/iotSDR/Vivado_work/trx_spi_interface/fpga-2.13/ucecho.v:21]
 INFO: [Synth 8-638] synthesizing module 'BUFG' [/opt/Xilinx/Vivado/2017.4/scripts/rt/data/unisim_comp.v:607]
@@ -29,7 +29,7 @@ INFO: [Synth 8-638] synthesizing module 'spi_controller' [/mnt/IQups/IQups_Proje
 INFO: [Synth 8-256] done synthesizing module 'spi_controller' (3#1) [/mnt/IQups/IQups_Projects/iotSDR/Vivado_work/trx_spi_interface/fpga-2.13/ucecho.srcs/sources_1/new/SPI_Controller.vhd:20]
 INFO: [Synth 8-256] done synthesizing module 'ucecho' (4#1) [/mnt/IQups/IQups_Projects/iotSDR/Vivado_work/trx_spi_interface/fpga-2.13/ucecho.v:21]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1343.621 ; gain = 139.523 ; free physical = 1696 ; free virtual = 11931
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1343.617 ; gain = 139.523 ; free physical = 1567 ; free virtual = 11472
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -39,7 +39,7 @@ Report Check Netlist:
 |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1343.621 ; gain = 139.523 ; free physical = 1700 ; free virtual = 11934
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1343.617 ; gain = 139.523 ; free physical = 1570 ; free virtual = 11475
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7a35tcsg324-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
@@ -47,7 +47,7 @@ INFO: [Project 1-570] Preparing netlist for logic optimization
 Processing XDC Constraints
 Initializing timing engine
 Parsing XDC File [/mnt/IQups/IQups_Projects/iotSDR/Vivado_work/trx_spi_interface/fpga-2.13/ucecho.xdc]
-WARNING: [Vivado 12-4702] DRIVE is not a supported property on input port(s). Setting is ignored. [/mnt/IQups/IQups_Projects/iotSDR/Vivado_work/trx_spi_interface/fpga-2.13/ucecho.xdc:24]
+WARNING: [Vivado 12-4702] DRIVE is not a supported property on input port(s). Setting is ignored. [/mnt/IQups/IQups_Projects/iotSDR/Vivado_work/trx_spi_interface/fpga-2.13/ucecho.xdc:25]
 Finished Parsing XDC File [/mnt/IQups/IQups_Projects/iotSDR/Vivado_work/trx_spi_interface/fpga-2.13/ucecho.xdc]
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/mnt/IQups/IQups_Projects/iotSDR/Vivado_work/trx_spi_interface/fpga-2.13/ucecho.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/ucecho_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/ucecho_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
@@ -56,22 +56,22 @@ Completed Processing XDC Constraints
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1715.824 ; gain = 0.000 ; free physical = 1427 ; free virtual = 11662
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 1715.820 ; gain = 0.000 ; free physical = 1302 ; free virtual = 11207
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:24 ; elapsed = 00:00:35 . Memory (MB): peak = 1715.824 ; gain = 511.727 ; free physical = 1511 ; free virtual = 11747
+Finished Constraint Validation : Time (s): cpu = 00:00:23 ; elapsed = 00:00:34 . Memory (MB): peak = 1715.820 ; gain = 511.727 ; free physical = 1392 ; free virtual = 11297
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcsg324-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:24 ; elapsed = 00:00:35 . Memory (MB): peak = 1715.824 ; gain = 511.727 ; free physical = 1511 ; free virtual = 11747
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:23 ; elapsed = 00:00:34 . Memory (MB): peak = 1715.820 ; gain = 511.727 ; free physical = 1392 ; free virtual = 11297
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:35 . Memory (MB): peak = 1715.824 ; gain = 511.727 ; free physical = 1513 ; free virtual = 11749
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:34 . Memory (MB): peak = 1715.820 ; gain = 511.727 ; free physical = 1394 ; free virtual = 11299
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-5546] ROM "r_sclk_fall" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "mem_reg[255]" won't be mapped to RAM because it is too sparse
@@ -175,7 +175,7 @@ INFO: [Synth 8-5546] ROM "mem_reg[158]" won't be mapped to RAM because it is too
 INFO: [Synth 8-5546] ROM "mem_reg[157]" won't be mapped to RAM because it is too sparse
 INFO: [Common 17-14] Message 'Synth 8-5546' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:26 ; elapsed = 00:00:37 . Memory (MB): peak = 1715.824 ; gain = 511.727 ; free physical = 1501 ; free virtual = 11736
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:25 ; elapsed = 00:00:36 . Memory (MB): peak = 1715.820 ; gain = 511.727 ; free physical = 1382 ; free virtual = 11287
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -273,15 +273,15 @@ INFO: [Synth 8-3886] merging instance 'TxData_reg[3]' (FDRE) to 'TxData_reg[4]'
 INFO: [Synth 8-3886] merging instance 'TxData_reg[4]' (FDRE) to 'TxData_reg[5]'
 INFO: [Synth 8-3886] merging instance 'TxData_reg[5]' (FDRE) to 'TxData_reg[6]'
 INFO: [Synth 8-3886] merging instance 'TxData_reg[6]' (FDRE) to 'TxData_reg[7]'
-INFO: [Synth 8-3886] merging instance 'TxData_reg[7]' (FDRE) to 'TxData_reg[8]'
-INFO: [Synth 8-3886] merging instance 'TxData_reg[8]' (FDRE) to 'TxData_reg[9]'
-INFO: [Synth 8-3886] merging instance 'TxData_reg[9]' (FDRE) to 'TxData_reg[10]'
-INFO: [Synth 8-3886] merging instance 'TxData_reg[10]' (FDRE) to 'TxData_reg[11]'
-INFO: [Synth 8-3886] merging instance 'TxData_reg[11]' (FDRE) to 'TxData_reg[13]'
-INFO: [Synth 8-3886] merging instance 'TxData_reg[12]' (FDSE) to 'TxData_reg[14]'
-INFO: [Synth 8-3886] merging instance 'TxData_reg[13]' (FDRE) to 'TxData_reg[16]'
-INFO: [Synth 8-3886] merging instance 'TxData_reg[14]' (FDSE) to 'TxData_reg[15]'
-INFO: [Synth 8-3333] propagating constant 1 across sequential element (\TxData_reg[15] )
+INFO: [Synth 8-3886] merging instance 'TxData_reg[7]' (FDRE) to 'TxData_reg[9]'
+INFO: [Synth 8-3886] merging instance 'TxData_reg[8]' (FDSE) to 'TxData_reg[10]'
+INFO: [Synth 8-3886] merging instance 'TxData_reg[9]' (FDRE) to 'TxData_reg[12]'
+INFO: [Synth 8-3886] merging instance 'TxData_reg[10]' (FDSE) to 'TxData_reg[11]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\TxData_reg[11] )
+INFO: [Synth 8-3886] merging instance 'TxData_reg[12]' (FDRE) to 'TxData_reg[13]'
+INFO: [Synth 8-3886] merging instance 'TxData_reg[13]' (FDRE) to 'TxData_reg[14]'
+INFO: [Synth 8-3886] merging instance 'TxData_reg[14]' (FDRE) to 'TxData_reg[15]'
+INFO: [Synth 8-3886] merging instance 'TxData_reg[15]' (FDRE) to 'TxData_reg[16]'
 INFO: [Synth 8-3886] merging instance 'TxData_reg[16]' (FDRE) to 'TxData_reg[17]'
 INFO: [Synth 8-3886] merging instance 'TxData_reg[17]' (FDRE) to 'TxData_reg[18]'
 INFO: [Synth 8-3886] merging instance 'TxData_reg[18]' (FDRE) to 'TxData_reg[19]'
@@ -292,27 +292,9 @@ INFO: [Synth 8-3886] merging instance 'TxData_reg[22]' (FDRE) to 'TxData_reg[23]
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (\TxData_reg[23] )
 WARNING: [Synth 8-3332] Sequential element (in_valid_reg) is unused and will be removed from module ezusb_lsi.
 WARNING: [Synth 8-3332] Sequential element (TxData_reg[23]) is unused and will be removed from module ucecho.
-WARNING: [Synth 8-3332] Sequential element (TxData_reg[15]) is unused and will be removed from module ucecho.
+WARNING: [Synth 8-3332] Sequential element (TxData_reg[11]) is unused and will be removed from module ucecho.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:33 ; elapsed = 00:00:46 . Memory (MB): peak = 1717.152 ; gain = 513.055 ; free physical = 1454 ; free virtual = 11690
----------------------------------------------------------------------------------
-
-Report RTL Partitions: 
-+-+--------------+------------+----------+
-| |RTL Partition |Replication |Instances |
-+-+--------------+------------+----------+
-+-+--------------+------------+----------+
----------------------------------------------------------------------------------
-Start Applying XDC Timing Constraints
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:40 ; elapsed = 00:00:54 . Memory (MB): peak = 1717.152 ; gain = 513.055 ; free physical = 1326 ; free virtual = 11568
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Timing Optimization
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:41 ; elapsed = 00:00:56 . Memory (MB): peak = 1717.152 ; gain = 513.055 ; free physical = 1312 ; free virtual = 11553
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:33 ; elapsed = 00:00:45 . Memory (MB): peak = 1715.820 ; gain = 511.727 ; free physical = 1339 ; free virtual = 11244
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -320,135 +302,3 @@ Report RTL Partitions:
 | |RTL Partition |Replication |Instances |
 +-+--------------+------------+----------+
 +-+--------------+------------+----------+
----------------------------------------------------------------------------------
-Start Technology Mapping
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:45 ; elapsed = 00:00:59 . Memory (MB): peak = 1738.566 ; gain = 534.469 ; free physical = 1305 ; free virtual = 11547
----------------------------------------------------------------------------------
-
-Report RTL Partitions: 
-+-+--------------+------------+----------+
-| |RTL Partition |Replication |Instances |
-+-+--------------+------------+----------+
-+-+--------------+------------+----------+
----------------------------------------------------------------------------------
-Start IO Insertion
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Flattening Before IO Insertion
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished Flattening Before IO Insertion
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Final Netlist Cleanup
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished Final Netlist Cleanup
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:46 ; elapsed = 00:01:00 . Memory (MB): peak = 1738.566 ; gain = 534.469 ; free physical = 1304 ; free virtual = 11546
----------------------------------------------------------------------------------
-
-Report Check Netlist: 
-+------+------------------+-------+---------+-------+------------------+
-|      |Item              |Errors |Warnings |Status |Description       |
-+------+------------------+-------+---------+-------+------------------+
-|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
-+------+------------------+-------+---------+-------+------------------+
----------------------------------------------------------------------------------
-Start Renaming Generated Instances
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:46 ; elapsed = 00:01:00 . Memory (MB): peak = 1738.566 ; gain = 534.469 ; free physical = 1304 ; free virtual = 11546
----------------------------------------------------------------------------------
-
-Report RTL Partitions: 
-+-+--------------+------------+----------+
-| |RTL Partition |Replication |Instances |
-+-+--------------+------------+----------+
-+-+--------------+------------+----------+
----------------------------------------------------------------------------------
-Start Rebuilding User Hierarchy
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:47 ; elapsed = 00:01:01 . Memory (MB): peak = 1738.566 ; gain = 534.469 ; free physical = 1303 ; free virtual = 11545
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Renaming Generated Ports
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:47 ; elapsed = 00:01:01 . Memory (MB): peak = 1738.566 ; gain = 534.469 ; free physical = 1303 ; free virtual = 11545
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Handling Custom Attributes
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:47 ; elapsed = 00:01:02 . Memory (MB): peak = 1738.566 ; gain = 534.469 ; free physical = 1311 ; free virtual = 11546
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Renaming Generated Nets
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:47 ; elapsed = 00:01:02 . Memory (MB): peak = 1738.566 ; gain = 534.469 ; free physical = 1311 ; free virtual = 11546
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Writing Synthesis Report
----------------------------------------------------------------------------------
-
-Report BlackBoxes: 
-+-+--------------+----------+
-| |BlackBox name |Instances |
-+-+--------------+----------+
-+-+--------------+----------+
-
-Report Cell Usage: 
-+------+------+------+
-|      |Cell  |Count |
-+------+------+------+
-|1     |BUFG  |     1|
-|2     |LUT2  |     6|
-|3     |LUT3  |    54|
-|4     |LUT4  |     4|
-|5     |LUT5  |   312|
-|6     |LUT6  |  2187|
-|7     |MUXF7 |  1088|
-|8     |MUXF8 |   544|
-|9     |FDCE  |    85|
-|10    |FDPE  |     7|
-|11    |FDRE  |  8533|
-|12    |IBUF  |     6|
-|13    |OBUF  |     4|
-+------+------+------+
-
-Report Instance Areas: 
-+------+-------------+---------------+------+
-|      |Instance     |Module         |Cells |
-+------+-------------+---------------+------+
-|1     |top          |               | 12831|
-|2     |  lsi_inst   |ezusb_lsi      |  4429|
-|3     |  spi_master |spi_controller |   166|
-+------+-------------+---------------+------+
----------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:47 ; elapsed = 00:01:02 . Memory (MB): peak = 1738.566 ; gain = 534.469 ; free physical = 1311 ; free virtual = 11546
----------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 3 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:38 ; elapsed = 00:00:43 . Memory (MB): peak = 1738.566 ; gain = 162.266 ; free physical = 1368 ; free virtual = 11602
-Synthesis Optimization Complete : Time (s): cpu = 00:00:47 ; elapsed = 00:01:02 . Memory (MB): peak = 1738.574 ; gain = 534.469 ; free physical = 1368 ; free virtual = 11602
-INFO: [Project 1-571] Translating synthesized netlist
-INFO: [Netlist 29-17] Analyzing 1638 Unisim elements for replacement
-INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
-INFO: [Project 1-570] Preparing netlist for logic optimization
-INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-INFO: [Project 1-111] Unisim Transformation Summary:
-No Unisim elements were transformed.
-
-INFO: [Common 17-83] Releasing license: Synthesis
-145 Infos, 4 Warnings, 0 Critical Warnings and 0 Errors encountered.
-synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:51 ; elapsed = 00:01:05 . Memory (MB): peak = 1770.582 ; gain = 592.316 ; free physical = 1381 ; free virtual = 11615
-INFO: [Common 17-1381] The checkpoint '/mnt/IQups/IQups_Projects/iotSDR/Vivado_work/trx_spi_interface/fpga-2.13/ucecho.runs/synth_2_13d/ucecho.dcp' has been generated.
-INFO: [runtcl-4] Executing : report_utilization -file ucecho_utilization_synth.rpt -pb ucecho_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00.15 ; elapsed = 00:00:00.17 . Memory (MB): peak = 1794.594 ; gain = 0.000 ; free physical = 1377 ; free virtual = 11613
-INFO: [Common 17-206] Exiting Vivado at Sun Jul  8 23:36:39 2018...

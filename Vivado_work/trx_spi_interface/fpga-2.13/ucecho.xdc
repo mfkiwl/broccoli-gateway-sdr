@@ -17,10 +17,11 @@ set_property DRIVE 4 [get_ports lsi_miso]
 set_property IOSTANDARD LVCMOS33 [get_ports lsi_*]
 
 #transciever SPI connections                                 #Ztex    atreb
-set_property PACKAGE_PIN A11 [get_ports {dev_miso}]  		;# B30    17
-set_property PACKAGE_PIN A14 [get_ports {dev_mosi}]  		;# A29    16
-set_property PACKAGE_PIN B11 [get_ports {dev_sclk}]  		;# A30    18
-set_property PACKAGE_PIN A13 [get_ports {dev_ss}]  	        ;# B29    15   
+set_property PACKAGE_PIN A11 [get_ports {dev_sclk}]  		;# B30    18
+set_property PACKAGE_PIN A14 [get_ports {dev_ss}]  	    	;# A29    15
+set_property PACKAGE_PIN B11 [get_ports {dev_miso}]  		;# A30    17
+set_property PACKAGE_PIN A13 [get_ports {dev_mosi}]  	    ;# B29    16
+#set_property PACKAGE_PIN A13 [get_ports {dev_irq}]  	    ;# B28    10   
 set_property DRIVE 4 [get_ports dev_miso]
 set_property IOSTANDARD LVCMOS33 [get_ports dev_*]
 
